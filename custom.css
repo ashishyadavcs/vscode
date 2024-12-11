@@ -1,0 +1,61 @@
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container,
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.selected.tab-border-top
+  > .tab-border-top-container {
+  height: 5px;
+  background-image: linear-gradient(45deg, #4dffd0, #ff30fc, #4dffd0);
+  background-size: 200% auto;
+  border-radius: 10px;
+  animation: move 2s linear infinite;
+}
+@keyframes move {
+  100% {
+    background-position: 200%;
+  }
+}
+.codicon-accounts-view-bar-icon:before {
+  content: "";
+  background: url("https://www.frontendzone.com/_next/image?url=%2Fimages%2Fashish-portfolio.jpg&w=2048&q=75");
+  border-radius: 50%;
+  height: 30px;
+  min-width: 30px;
+  background-position: center;
+  background-size: 35px;
+}
+.mtk7 {
+  color: #ed21ff;
+}
+.mtk10 {
+  color: #1cffbb;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab {
+  color: #ff0093;
+}
+.monaco-editor, .monaco-editor-background,.monaco-editor .margin {
+  background: #010216;
+}
+
+
+
+
+.monaco-workbench .part.activitybar{
+  background:linear-gradient(45deg, #4e0049, transparent)
+}
