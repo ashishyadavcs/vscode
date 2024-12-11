@@ -14,10 +14,9 @@
   .tabs-container
   > .tab.selected.tab-border-top
   > .tab-border-top-container {
-  height: 5px;
+  height: 3px;
   background-image: linear-gradient(45deg, #4dffd0, #ff30fc, #4dffd0);
   background-size: 200% auto;
-  border-radius: 10px;
   animation: move 2s linear infinite;
 }
 @keyframes move {
