@@ -59,5 +59,7 @@
 
 
 .monaco-workbench .part.activitybar{
-  background:linear-gradient(45deg, #4e0049, transparent)
+  &,&:hover{
+    background:linear-gradient(45deg, #4e0049, transparent)
+  }
 }
