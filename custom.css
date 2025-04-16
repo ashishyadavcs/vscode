@@ -51,6 +51,9 @@
 .monaco-editor, .monaco-editor-background,.monaco-editor .margin {
   background: #010216;
 }
+.monaco-scrollable-element>.scrollbar>.slider {
+    background: #ff07bc;
+}
 
 
 
